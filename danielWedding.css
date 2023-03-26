@@ -1,24 +1,61 @@
+body{
+    background-image: url("DanielWeddingBackground.jpg");
+    background-size: cover;
+}
+
 p{
     text-align: center;
     font-family: 'Fredoka', sans-serif;
     font-size: 28px;
+    color: #500e36;
 
 }
 
-h1{
-    font-size: 60px;
-    text-align: center;
+#authors{
+    font-weight: 800;
+    font-size: 30px;
+}
 
+h1{
+    font-size: 58px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 800;
+    color: #500e36;
 }
 
 h2{
     text-align: center;
     font-family: 'Bona Nova', serif;
     font-size: 40px;
-
+    color: #a23b79;
 }
 
-body{
-    background-image: url("DanielWeddingBackground.jpg");
-    background-size: cover;
+#bgOverlay{
+    width: 100%; /* Full width (cover the whole page) */
+    height: 1000px; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Black background with opacity */
+    background-image: linear-gradient(#d487bc, rgb(121, 40, 164));
+    opacity: 0.4;
+    position: fixed;
+    z-index: -1;
+}
+
+#textContainer{
+    background-image: linear-gradient(#f0c9e3, rgb(247, 190, 217));
+    width: 55%;
+    border-radius: 30px;
+    padding: 10px;
+    position: fixed;
+    top: 3.5%;
+    opacity: 0.8;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
 }
