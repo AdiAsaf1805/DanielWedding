@@ -3,6 +3,13 @@ body{
     background-size: cover;
 }
 
+@media only screen and (max-width: 910px) {
+    body {
+        background-image: url("DanielWeddingBackground_phone.jpg");
+        background-size: cover;
+    }
+  }
+
 p{
     text-align: center;
     font-family: 'Fredoka', sans-serif;
@@ -33,7 +40,7 @@ h2{
 
 #bgOverlay{
     width: 100%; /* Full width (cover the whole page) */
-    height: 1000px; /* Full height (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
     top: 0;
     left: 0;
     right: 0;
